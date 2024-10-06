@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geekathon Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://www.geeksforgeeks.org/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-900">
+    
+    <nav class="bg-gray-900 h-20 p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center h-full px-10">
+            <div class="text-5xl font-bold text-yellow-400 transition-transform transform hover:scale-110">Geekathon</div>
+            <div class="flex space-x-4"> 
+                <button class="bg-yellow-400 font-extrabold text-black py-3 px-6 rounded-lg hover:bg-white transition-colors duration-300 shadow-md">
+                    Sign Up
+                </button>
+                <button class="bg-yellow-400 font-extrabold text-black py-3 px-6 rounded-lg hover:bg-white transition-colors duration-300 shadow-md">
+                    Join Our Community
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-20 text-center">
+        <h1 class="text-7xl font-bold mb-6 drop-shadow-lg">Join Geekathon 2024</h1>
+        <p class="mt-4 text-2xl md:text-3xl">An innovation-driven hackathon for developers, designers, and entrepreneurs.</p>
+        
+        <div class="mt-8 flex justify-center flex-wrap">
+            <button class="bg-blue-600 text-white py-3 px-6 rounded-full text-lg font-semibold mx-2 hover:bg-blue-500 transition-colors duration-300 shadow-lg">Workshops</button>
+            <button class="bg-yellow-500 text-gray-900 py-3 px-6 rounded-full text-lg font-semibold mx-2 hover:bg-yellow-400 transition-colors duration-300 shadow-lg">Mentorship</button>
+            <button class="bg-green-600 text-white py-3 px-6 rounded-full text-lg font-semibold mx-2 hover:bg-green-500 transition-colors duration-300 shadow-lg">Networking</button>
+            <button class="bg-red-600 text-white py-3 px-6 rounded-full text-lg font-semibold mx-2 hover:bg-red-500 transition-colors duration-300 shadow-lg">Prizes</button>
+        </div>
+        
+        <a href="#signup" class="mt-6 inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white py-4 px-8 rounded-lg shadow-2xl text-lg font-bold hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+            Sign Up Now
+        </a>
+    </header>
+    
+    <main class="container mx-auto p-6 text-gray-800">
+       
+        <section id="overview" class="my-12 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-3xl font-bold">Event Overview</h2>
+          <p class="mt-4">Geekathon is a hackathon event aimed at tech enthusiasts, developers, designers, and entrepreneurs. Join us for a weekend of innovation and collaboration.</p>
+        </section>
+
+        <section id="objectives" class="my-12 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-3xl font-bold">Objectives</h2>
+          <p class="mt-4">Our goal is to foster innovation and collaboration through technology. Participants will work together to create cutting-edge solutions.</p>
+        </section>
+    
+        <section id="audience" class="my-12 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-3xl font-bold">Target Audience</h2>
+          <p class="mt-4">We welcome developers, designers, entrepreneurs, and students to join us for this exciting event.</p>
+        </section>
+    
+        <section id="format" class="my-12 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-3xl font-bold">Event Format</h2>
+          <p class="mt-4">The event will last for 48 hours, with teams of up to 5 members. Judging criteria will include innovation, feasibility, and presentation.</p>
+        </section>
+    
+        <section id="features" class="my-12 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-3xl font-bold">Features</h2>
+          <ul class="mt-4 list-disc list-inside">
+            <li>Workshops covering various technologies and tools.</li>
+            <li>One-on-one mentorship from industry experts.</li>
+            <li>Networking opportunities with potential employers and investors.</li>
+            <li>Access to exclusive resources and tools for participants.</li>
+            <li>Post-event support for project development and implementation.</li>
+          </ul>
+        </section>
+
+        <section id="prizes" class="my-12 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-bold">Prizes</h2>
+            <p class="mt-4">Top teams will receive exciting prizes, including cash rewards, tech gadgets, and internships.</p>
+            
+            <div class="mt-6 flex flex-col items-center">
+                <div class="mb-6 text-center">
+                    <span class="text-yellow-500 text-2xl font-bold">1st Prize</span>
+                    <img src="b.png" alt="GFG Swag" class="w-48 h-48 object-contain rounded-lg shadow-md mt-2">
+                </div>
+                <div class="mb-6 text-center">
+                    <span class="text-yellow-400 text-2xl font-bold">2nd Prize</span>
+                    <img src="db.png" alt="Leaderboard Podium" class="w-96 h-auto object-contain rounded-lg shadow-md mt-2">
+                </div>
+                <div class="mb-6 text-center">
+                    <span class="text-yellow-300 text-2xl font-bold">3rd Prize</span>
+                    <img src="t.png" alt="Tech Gadgets" class="w-48 h-48 object-contain rounded-lg shadow-md mt-2">
+                </div>
+            </div>
+        </section>
+
+        <section id="signup" class="my-12 text-center">
+          <a href="#" class="bg-gradient-to-r from-green-400 to-blue-500 text-white py-4 px-8 rounded-lg shadow-2xl text-lg font-bold hover:shadow-xl transition-shadow duration-300">
+            Sign Up Now
+          </a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p class="text-sm">&copy; 2024 Made by <span class="font-bold">Prathamesh Ghodmare</span>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
